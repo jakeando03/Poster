@@ -1,0 +1,52 @@
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.poster{
+    position: relative;
+    flex-direction: column;
+    background-color: black;
+    width: 50%;
+    height: 60%;
+    border-radius:3% ;
+    overflow: hidden;
+}
+.poster img{
+    position: absolute;
+    display: block;
+    top: -50%;
+    left: 3%;
+    height: 1080px;
+    object-fit: cover;
+}
+.title{
+    color:rgba(255, 255, 255, 0.732);
+    position:absolute;
+    display: block;
+    left: 46%;
+    top: 30%;
+    font-family: 'Old English Text MT', 'Blackletter', serif;
+
+}
+.quote{
+    position:absolute;
+    display: block;
+    color: rgba(255, 255, 255, 0.771);
+    left: 54%;
+    top: 40%;
+    font-size: 65px;
+    font-family: 'Old English Text MT', 'Blackletter', serif;
+    line-height: 0.3;
+    letter-spacing: 5px;
+}
+.author{
+    position: absolute;
+    display: block;
+    color: white;
+    font-family: 'Old English Text MT', 'Blackletter', serif;
+    font-size: 40px;
+    left: 20px;
+    top: -2%;
+}
